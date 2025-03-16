@@ -1,0 +1,150 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0b1f3a; /* Dark blue */
+    color: #f1f1f1; /* Light text */
+}
+
+/* Header */
+header {
+    background: #0a1a30;
+    padding: 40px 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+    background: #12294a;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #f1f1f1;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #142d52;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background: #0a1a30;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+/* Timeline Styles */
+.timeline-section .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.timeline-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.timeline-content img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #f1f1f1;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.skill-card {
+    background: #183b6b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* Stats Section */
+.stats-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    flex: 1 1 200px;
+    background: #1a416e;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* Project Links Styling */
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 10px;
+}
+
+#projects a {
+    color: #66ccff;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
